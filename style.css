@@ -1,0 +1,102 @@
+/* navbar start */
+
+.navbar-brand{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10px;
+}
+
+.navbar-expand-lg .navbar-collapse {
+   
+}
+
+.nav-link{
+    font-size: 20px;
+    
+ }
+
+.nav-link:hover{
+background-color: #66A4A0; 
+}
+
+
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.55);
+    border-color: rgba(0,0,0,.1);
+    margin-top: -126px;
+    height: 46px;
+    margin-left: -15px;
+}
+
+
+/* navbar end  */
+
+/* sidebar */ 
+
+  
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 180px;
+    left:0;
+    z-index: 9999;
+    background-color: gray;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  @media only screen and (max-width : 540px)  and (orientation : portrait) {
+   .sidenav{top: 215px;}
+    .sidebarA{ margin-top: 65px;}  
+    .sideBar{
+   
+    }
+    }
+.login{
+  margin-top: -100px;
+}
+
+    /* slider */
+.carousel-inner{
+  margin-top: 40px;
+}
+.sideBar{
+  margin-top: 200px;
+}
+
+
+/* footer */
+
+li a {
+  text-decoration: none;
+  color: black;
+}
